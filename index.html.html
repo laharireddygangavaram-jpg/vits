@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gangavaram Lahari | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    color:#fff;
+}
+.profile-circle{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-bottom:25px;
+    box-shadow:0 0 25px rgba(56,189,248,0.6);
+    border:4px solid #38bdf8;
+}
+
+.profile-circle img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:rgba(15,23,42,0.9);
+    backdrop-filter:blur(10px);
+    padding:15px 8%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:650px;
+    line-height:1.7;
+}
+
+.btn{
+    margin-top:25px;
+    display:inline-block;
+    padding:12px 28px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#38bdf8;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+    padding:25px;
+    backdrop-filter:blur(10px);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:rgba(255,255,255,0.08);
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:38px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">Lahari</div>
+
+<ul>
+    
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+
+
+    <div class="profile-circle">
+    <img src="c:\Users\lahar\Downloads\WhatsApp Image 2026-06-09 at 18.30.16.jpeg" alt="Gangavaram Lahari">
+</div>
+    Profile
+</div>
+
+
+
+<h1>Gangavaram Lahari</h1>
+
+<h3>Computer Science Engineering Student</h3>
+
+<p>
+Java Development, Web Technologies, Database Management,
+and Software Development.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</section>
+
+
+
+<a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+<h2 class="title">About Me</h2>
+<div class="card">
+<p>
+I am a passionate Computer Science Engineering student with knowledge in
+Java, HTML, CSS, JavaScript, MySQL and GitHub. I enjoy solving problems,
+building web applications, and continuously learning new technologies.
+</p>
+</div>
+</section>
+
+
+
+
+<section id="education">
+<h2 class="title">Education</h2>
+
+<div class="card">
+
+<h3>B.Tech - Computer Science Engineering</h3>
+<p>PBR Visvodaya Institute of Technology and Science (PBR VITS)</p>
+<p>Final Year</p>
+
+<br>
+
+<h3>Intermediate</h3>
+<p>Priyadharishini  Junior College,Atmakur </p>
+
+<br>
+
+<h3>SSC (Schooling)</h3>
+<p>ZPP high  School,Thurupu palli </p>
+
+</div>
+
+</section>
+
+
+
+<section id="skills">
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+<div class="skill">Java</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">MySQL</div>
+<div class="skill">PYTHON</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+</div>
+</section>
+
+
+
+
+
+<section id="projects">
+<h2 class="title">Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>ATM Machine Simulation</h3>
+<p>Developed an ATM application using Java that allows users to withdraw money, check balance, deposit cash, and perform banking operations.</p>
+</div>
+
+<div class="project">
+<h3>Gesture Recognition System</h3>
+<p>Built a gesture recognition project using computer vision techniques to identify and interpret hand gestures for user interaction.</p>
+</div>
+
+<div class="project">
+<h3>Object Detection System</h3>
+<p>Developed an object detection application capable of identifying and tracking objects in images and video streams.</p>
+</div>
+
+<div class="project">
+<h3>Student Management System</h3>
+<p>Developed using Java and MySQL to manage student records efficiently.</p>
+</div>
+
+<div class="project">
+<h3>Registration Form</h3>
+<p>Responsive registration form using HTML, CSS and JavaScript.</p>
+</div>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>Personal portfolio website showcasing skills and projects.</p>
+</div>
+
+</div>
+</section>
+
+
+
+<section id="certifications">
+<h2 class="title">Certifications</h2>
+
+<div class="card">
+<ul>
+<li>Java Programming Certification</li>
+<li>Python Programming Certification</li>
+<li>HTML Certification</li>
+<li>IBM SkillsBuild Certification</li>
+<li>Wipro TalentNext Certification</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact</h2>
+
+<div class="card contact">
+<p>Email:</p>
+<p>
+<a href="mailto:laharireddygangavaram@gmail.com">
+laharireddygangavaram@gmail.com
+</a>
+</p>
+
+<br>
+<p>Mobile:</p>
+<p>
+<a href="tel:+91XXXXXXXXXX">
++91 9391757703
+</a>
+</p>
+
+<br>
+<p>LinkedIn:</p>
+<p>
+<a href="https://www.linkedin.com/in/lahari-reddy-gangavaram" target="_blank">
+Lahari Reddy Gangavaram
+</a>
+</p>
+
+<p>GitHub:</p>
+<p>
+<a href="https://github.com/laharireddygangavaram-jpg" target="_blank">
+github.com/laharireddygangavaram-jpg
+</a>
+</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Gangavaram Lahari | Portfolio</p>
+</footer>
+
+</body>
+</html>
